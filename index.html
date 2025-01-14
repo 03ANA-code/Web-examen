@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>
+            <span class="cuadro"></span>MENÚ
+        </h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Sección Inicio -->
+
+    <section id="inicio">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <div class="ui">
+                        Ana<span class="circulo"></span>
+                    </div>
+                    <div class="info">
+                        <div class="botones">
+                            <button class="btn-primary">Proyectos</button>
+                        </div>
+                        <h2>Hola, soy Ana<br>Diseñadora de producto</h2>
+                    </div>
+                    <div class="vertical txt">PORTFOLIO</div>
+                </div>
+                <section id="inicio" class="inicio">
+                    <div class="contenido-banner">
+                        <div class="contenedor-img">
+                            <img src="portada 4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+  <!-- SECCION SOBRE MI -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>Hola, soy Ana Luzardo.</span> Soy estudiante de cuarto curso del Grado en Diseño de Producto en UDIT (Universidad de Diseño, Innovación y Tecnología).
+
+            Apasionada por el diseño y la creación de soluciones innovadoras que combinan funcionalidad, estética y experiencia de usuario, con un interés particular en sectores como la joyería y el mobiliario. Me destaco por mi creatividad, desarrollada mediante diversas expresiones artísticas, como el dibujo, el tatuaje, la música y la decoración. Me inspira colaborar en equipos multidisciplinarios, explorar nuevas tecnologías y mantener un aprendizaje constante para aportar valor a cada proyecto en el que participo.</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        03-03-2003
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        (+34) 673 100 238 - (Esp)
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        analuzardo@example.com
+                    </li>
+                    <li>
+                        <strong>linkedin</strong>
+                        https://www.linkedin.com/ana-luzardo
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Madrid, España 
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>DISEÑADORA</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        
+                        <i class="fa-solid fa-palette"></i>
+                        <span>ARTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>AUTOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </div>
+</section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                        <div class="skill">
+                           <span>Autocad</span>
+                           <div class="progress-bar">
+                             <div class="progress Autocad">60%</div>
+                          </div>
+                        </div>
+                            <div class="skill">
+                                <span>Keyshot</span>
+                                <div class="progress-bar">
+                                  <div class="progress Keyshot">75%</div>
+                                </div>
+                              </div>
+                              <div class="skill">
+                                <span>Rinocero 3D</span>
+                                <div class="progress-bar">
+                                  <div class="progress Rinocero 3D">85%</div>
+                                </div>
+                              </div>
+                              <div class="skill">
+                                <span>Solid</span>
+                                <div class="progress-bar">
+                                  <div class="progress Solid">70%</div>
+                                </div>
+                              </div>
+                              <div class="skill">
+                                <span>Photoshop</span>
+                                <div class="progress-bar">
+                                  <div class="progress Photoshop">49%</div>
+                                </div>
+                              </div>      
+
+    </section>
+
+   <!-- SECCION PORTFOLIO -->
+   <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="silla portada.18.jpg" alt="">
+                <div class="overlay">
+                    <h3>Teka Chair</h3>
+                    <p>Mobiliario</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                
+                <img src="general render metro.26.jpg" alt="">
+                <div class="overlay">
+                    <h3>Inside the Jungle</h3>
+                    <p>Interior</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="LATA RENDER.19.jpg" alt="">
+                <div class="overlay">
+                    <h3>RTD</h3>
+                    <p>Ilustración</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="LAMPARA PORTADA RENDER.37.jpg" alt="">
+                <div class="overlay">
+                    <h3>Uku Kanji</h3>
+                    <p>Luminaria</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="ESCENA 3 (1).jpg" alt="">
+                <div class="overlay">
+                    <h3>ROAM</h3>
+                    <p>Carrito para Ikea</p>
+                </div>
+            </div>
+                <div class="proyecto">
+                    <img src="RENDER CASCOS gen.34.jpg" alt="">
+                    <div class="overlay">
+                        <h3>SonicVibe</h3>
+                        <p>Auriculares</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Segundaria Obligatoría</h4>
+                        <span class="casa">IES La Minilla</span>
+                        <span class="fecha">2015 - 2019</span>
+                        <p>Instituto de Educación Secundaria La Minilla, Las Palmas de Gran Canaria, España.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller | Modalidad de artes</h4>
+                        <span class="casa">EASD</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Escuela de Arte Superior y Diseño, Las Palmas de Gran Canaria, España.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Estudios universitarios | Grado de diseño de producto </h4>
+                        <span class="casa">UDIT</span>
+                        <span class="fecha">2021 - actual</span>
+                        <p>Universidad de Diseño, Innovación y Tecnología, Madrid, España.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Participación en concurso  de Verallia</span>
+                        <span class="fecha"> 2021 - 2022   Verallia (empresa de embotelladoras)  </span>
+                        <p>Participación en concurso Diseño y Creación en vidrio de Verallia.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Diseño de una silla de diseño</span>
+                        <span class="fecha">2022 - 2023   Pilma (tienda de muebles de diseño)  x UDIT</span>
+                        <p>Proyecto anual universitario de la mano con Pilma, para diseñar una silla.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Trabajos de fin de grado</span>
+                        <span class="fecha">Proyectos en colaboración con alumnos del grado de Marketing.</span>
+                        <p>2023 - Diseño de branding para una nueva marca de bebidas.
+                            2024 - Rediseño de carrito de compra para Ikea.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="email" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i> Madrid, España</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i> Llamanos: (+34) 673 100 238 - (Esp)</li>
+                            <li><i class="fa-solid fa-envelope"></i> Email: analuzardo@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="col3">
+            <h3 class="titulo-footer">Subscribite para recibir <br> el Boletín de noticias</h3>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
